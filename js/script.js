@@ -8,19 +8,19 @@ function initMap(){
     zoom: 10
   });
   
-  new google.maps.Marker({
+  new google.maps.marker.AdvancedMarkerElement({
     position: {lat:34.4237643, lng:-119.705686},
     map,
     title: "SB Pho",
   });
   
-  new google.maps.Marker({
+  new google.maps.marker.AdvancedMarkerElement({
     position: {lat:34.4218042, lng:-119.7052485},
     map,
     title: "LOKUM",
   });
   
-  new google.maps.Marker({
+  new google.maps.marker.AdvancedMarkerElement({
     position: {lat:34.4226202, lng:-119.7066041},
     map,
     title: "Satellite SB",
