@@ -1,0 +1,86 @@
+body {
+	background: rgb(255,176,187);
+	background: linear-gradient(0deg, rgba(255,176,187,1) 0%, rgba(223,253,255,1) 50%, rgba(255,232,183,1) 100%);
+}
+        
+#content {
+	width: 960px;
+	margin: 0 auto;
+	box-shadow: 0em 1em 1em 0.5em rgba(0, 0, 0, 1);
+	border-radius: 1em;
+  font-family: Arial, Times New Roman;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+main {
+  padding: 1em;
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+}
+
+h2 {
+	position: relative;
+	text-align: center;
+  font-family: "Exo 2", sans-serif;
+}
+
+.imgc {
+	position: relative;
+	left:25%;
+}
+
+audio {
+	width: 100%;
+}
+
+#header {
+	position: relative;
+	text-align: center;
+	margin-top: 8em;
+	border-radius: 2em 2em 0em 0em;
+}
+
+#proj-nav {
+	float: left;
+	width: 100%;
+	background-color: #555;
+}
+
+#proj-nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+	left:50%;
+}
+
+#proj-nav ul li {
+	padding: 0.5em 1em;
+	float: left;
+	position: relative;
+	right: 50%;
+	display: block;
+}
+
+#proj-nav ul li a {
+	text-decoration: none;
+	color: #FFEFD5;
+}
+
+#proj-nav ul li a:hover {
+	background-color: #FFEFD5;
+	color: #666666;
+}
+
+@media screen and (min-width: 800px) {
+
+  #content {
+    font-weight: normal;
+    font-size: medium;
+  }
+}
