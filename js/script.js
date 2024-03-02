@@ -31,4 +31,4 @@ function initMap(){
 var dewan = document.getElementById('dewan');
 
 dewan.addEventListener('click', picturemessage);
-window.dates = dates;
+window.initMap = initMap;
