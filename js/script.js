@@ -37,19 +37,19 @@ function initMap() {
     title: "Parking",
   });
     
-  const datePathCoor = [
+  var datePathCoor = [
     { lat:34.4226202, lng:-119.7066041 },
     { lat:34.4237643, lng:-119.705686 },
     { lat:34.4218042, lng:-119.7052485 },
   ];
   
-  const datePath = new google.maps.Polyline({
+  var datePath = new google.maps.Polyline({
     path: datePathCoor,
     geodesic: true,
     strokeColor: "#FF0000",
     strokeOpacity: 1.0,
     strokeWeight: 2,
-  })
+  });
   
   datePath.setMap(map);
 }
