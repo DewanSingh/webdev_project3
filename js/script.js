@@ -2,9 +2,9 @@ function picturemessage(){
   alert('Look at this handsome guy!')
 }
 
-function initMap(){
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat:34.429893, lng:-119.713450 },
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 34.429893, lng: -119.713450 },
     zoom: 10
   });
 
