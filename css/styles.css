@@ -77,6 +77,12 @@ audio {
 	color: #666666;
 }
 
+#map {
+	width: 60%;
+	height: 40em;
+	border: 1em solid blue;
+}
+
 @media screen and (min-width: 800px) {
 
   #content {
