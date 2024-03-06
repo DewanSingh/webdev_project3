@@ -28,13 +28,14 @@ function initMap(){
     position: { lat:34.4226202, lng:-119.7066041 },
     map,
     title: "Satellite SB",
+  });
     
   var parking = new google.maps.marker.AdvancedMarkerElement({
     position: { lat:34.4214242, lng:-119.706124 },
     icon: parkingSymbol,
     map: map,
     title: "Parking",
-    
+  });
     
   const datePathCoor = [
     { lat:34.4226202, lng:-119.7066041 },
