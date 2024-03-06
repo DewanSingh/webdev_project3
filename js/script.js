@@ -62,4 +62,8 @@ var dewan = document.getElementById('dewan');
 
 dewan.addEventListener('click', picturemessage);
 window.initMap = initMap;
+pho.setMap(map);
+lokum.setMap(map);
+satellite.setMap(map);
+parking.setMap(map);
 google.maps.event.addDomListener(window, 'load', initMap);
