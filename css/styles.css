@@ -78,8 +78,10 @@ audio {
 }
 
 #map {
-	padding: 1em;
-	width: 100%;
+	position: relative;
+	top: 1em;
+	margin: 1em auto;
+	width: 90%;
 	height: 40em;
 	border: 1em solid blue;
 }
