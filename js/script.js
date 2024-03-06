@@ -11,30 +11,30 @@ function initMap() {
   var pho = new google.maps.marker.AdvancedMarkerElement({
     position: { lat:34.4237643, lng:-119.705686 },
     map: map,
-    title: "SB Pho",
+    title: "SB Pho"
   });
 
   var parkingSymbol = {
     path: google.maps.SymbolPath.CIRCLE
+    map: map
   };
   
   var lokum = new google.maps.marker.AdvancedMarkerElement({
     position: { lat:34.4218042, lng:-119.7052485 },
-    map: map,
-    title: "LOKUM",
+    title: "LOKUM"
   });
 
   var satellite = new google.maps.marker.AdvancedMarkerElement({
     position: { lat:34.4226202, lng:-119.7066041 },
-    map,
-    title: "Satellite SB",
+    map: map,
+    title: "Satellite SB"
   });
     
   var parking = new google.maps.marker.AdvancedMarkerElement({
     position: { lat:34.4214242, lng:-119.706124 },
-    icon: parkingSymbol,
     map: map,
-    title: "Parking",
+    icon: parkingSymbol,
+    title: "Parking"
   });
     
   var datePathCoor = [
@@ -45,10 +45,11 @@ function initMap() {
   
   var datePath = new google.maps.Polyline({
     path: datePathCoor,
+    map: map,
     geodesic: true,
     strokeColor: "#FF0000",
     strokeOpacity: 1.0,
-    strokeWeight: 2,
+    strokeWeight: 2
   });
   
   datePath.setMap(map);
