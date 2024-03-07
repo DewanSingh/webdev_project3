@@ -14,7 +14,7 @@ function initMap() {
     title: "SB Pho"
   });
   var parkingSymbol = {
-    path: google.maps.SymbolPath.CIRCLE
+    path: google.maps.SymbolPath.CIRCLE,
     scale: 4
   };
 
