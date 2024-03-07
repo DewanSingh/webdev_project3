@@ -15,6 +15,7 @@ function initMap() {
   });
   var parkingSymbol = {
     path: google.maps.SymbolPath.CIRCLE
+    scale: 4;
   };
 
   var lokum = new google.maps.Marker({
