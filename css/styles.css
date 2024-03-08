@@ -28,6 +28,11 @@ h2 {
   font-family: "Exo 2", sans-serif;
 }
 
+.imgc {
+	position: relative;
+	left:25%;
+}
+
 .slides {
 	position: relative;
 	left:25%;
