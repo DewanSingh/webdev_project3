@@ -37,6 +37,15 @@ h2 {
 	position: relative;
 	aspect-ratio: 16 / 9;
   padding:2em;
+  display: none;
+}
+
+.slidenum {
+  display:none;
+}
+
+.text {
+  display:none;
 }
 
 audio {
@@ -101,7 +110,7 @@ audio {
 }
 
 .slides {
-  display: none;
+  
 }
   
 .prev, .next {
