@@ -56,6 +56,7 @@ function initMap() {
 }
 
 var dewan = document.getElementById('dewan');
+var slideIndex = 1;
 
 dewan.addEventListener('click', picturemessage);
 
@@ -78,7 +79,6 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slideIndex = 1;
   var slides = document.getElementsByClassName("slides");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {
