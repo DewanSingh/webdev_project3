@@ -102,6 +102,10 @@ audio {
 	border: 1em solid blue;
 }
 
+#legend {
+  margin-top: 2em;
+}
+
 * {
   box-sizing:border-box
 }
