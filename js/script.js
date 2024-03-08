@@ -90,7 +90,7 @@ function showSlides(n) {
   }
   
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "block";
+    slides[i].style.display = "none";
   }
   
   for (i = 0; i < dots.length; i++) {
