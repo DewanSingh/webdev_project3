@@ -35,7 +35,8 @@ h2 {
 
 .slides {
 	position: relative;
-	left:25%;
+	aspect-ratio: 16 / 9;
+  padding:2em;
 }
 
 audio {
