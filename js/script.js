@@ -66,7 +66,6 @@ satellite.setMap(map);
 parking.setMap(map);
 google.maps.event.addDomListener(window, 'load', initMap);
 
-slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -79,6 +78,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
+  var slideIndex = 1;
   var slides = document.getElementsByClassName("slides");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {
